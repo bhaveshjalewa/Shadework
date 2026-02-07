@@ -9,6 +9,8 @@ h1{
     margin-top:30px;
 }
 
+/* ================= START SCREEN ================= */
+
 #startScreen{
     width:850px;
     margin:40px auto;
@@ -30,12 +32,16 @@ h1{
     font-size:16px;
 }
 
+/* ================= TIMER ================= */
+
 #timer{
     color:red;
     font-weight:bold;
     margin:15px;
     font-size:18px;
 }
+
+/* ================= GAME BOARD ================= */
 
 table{
     border-collapse:collapse;
@@ -76,11 +82,15 @@ td{
     background:#f4f6f9;
 }
 
+/* ================= BUTTON ================= */
+
 button{
     padding:8px 18px;
     font-size:15px;
     margin:5px;
 }
+
+/* ================= RESULT ================= */
 
 #resultMessage{
     font-weight:bold;
@@ -88,70 +98,31 @@ button{
     margin-top:10px;
 }
 
-<div class="example-wrapper">
+/* ================= EXAMPLE NONOGRAM ================= */
 
-<table class="example-grid">
+.example-grid{
+    border-collapse:collapse;
+    margin:15px auto;
+}
 
-<!-- COLUMN CLUES -->
-<tr>
-    <td class="no-border"></td>
-    <td class="example-clue">3</td>
-    <td class="example-clue">1&nbsp;1&nbsp;1</td>
-    <td class="example-clue">5</td>
-    <td class="example-clue">1&nbsp;1&nbsp;1</td>
-    <td class="example-clue">3</td>
-</tr>
+.example-grid td{
+    width:28px;
+    height:28px;
+    border:1px solid #999;
+    text-align:center;
+    background:white;
+}
 
-<!-- ROW 1 -->
-<tr>
-    <td class="example-clue">3</td>
-    <td></td>
-    <td class="example-fill"></td>
-    <td class="example-fill"></td>
-    <td class="example-fill"></td>
-    <td></td>
-</tr>
+.example-fill{
+    background:black !important;
+}
 
-<!-- ROW 2 -->
-<tr>
-    <td class="example-clue">1&nbsp;1&nbsp;1</td>
-    <td class="example-fill"></td>
-    <td></td>
-    <td class="example-fill"></td>
-    <td></td>
-    <td class="example-fill"></td>
-</tr>
+.example-clue{
+    background:#eaeaea !important;
+    font-weight:bold;
+    font-size:13px;
+}
 
-<!-- ROW 3 -->
-<tr>
-    <td class="example-clue">5</td>
-    <td class="example-fill"></td>
-    <td class="example-fill"></td>
-    <td class="example-fill"></td>
-    <td class="example-fill"></td>
-    <td class="example-fill"></td>
-</tr>
-
-<!-- ROW 4 -->
-<tr>
-    <td class="example-clue">1&nbsp;1&nbsp;1</td>
-    <td class="example-fill"></td>
-    <td></td>
-    <td class="example-fill"></td>
-    <td></td>
-    <td class="example-fill"></td>
-</tr>
-
-<!-- ROW 5 -->
-<tr>
-    <td class="example-clue">3</td>
-    <td></td>
-    <td class="example-fill"></td>
-    <td class="example-fill"></td>
-    <td class="example-fill"></td>
-    <td></td>
-</tr>
-
-</table>
-
-</div>
+.no-border{
+    border:none !important;
+}
