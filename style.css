@@ -1,0 +1,98 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 30px;
+}
+
+#startScreen {
+    width: 850px;
+    margin: 40px auto;
+    padding: 35px;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    text-align: left;
+}
+
+#nameSection {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#playerName {
+    padding: 10px;
+    width: 280px;
+    font-size: 16px;
+}
+
+#timer {
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+td {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #bbb;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.cell {
+    background: white;
+    cursor: pointer;
+}
+
+.fill {
+    background: black;
+}
+
+.cell.xmark {
+    position: relative;
+}
+
+.cell.xmark::after {
+    content: "×";
+    color: #888;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.clue {
+    background: #f0f0f0;
+    font-weight: bold;
+}
+
+.blank {
+    background: #f4f6f9;
+    border: none;
+}
+
+button {
+    padding: 8px 18px;
+    font-size: 15px;
+    margin: 5px;
+}
+
+#resultMessage {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
