@@ -87,3 +87,71 @@ button{
     font-size:18px;
     margin-top:10px;
 }
+
+<div class="example-wrapper">
+
+<table class="example-grid">
+
+<!-- COLUMN CLUES -->
+<tr>
+    <td class="no-border"></td>
+    <td class="example-clue">3</td>
+    <td class="example-clue">1&nbsp;1&nbsp;1</td>
+    <td class="example-clue">5</td>
+    <td class="example-clue">1&nbsp;1&nbsp;1</td>
+    <td class="example-clue">3</td>
+</tr>
+
+<!-- ROW 1 -->
+<tr>
+    <td class="example-clue">3</td>
+    <td></td>
+    <td class="example-fill"></td>
+    <td class="example-fill"></td>
+    <td class="example-fill"></td>
+    <td></td>
+</tr>
+
+<!-- ROW 2 -->
+<tr>
+    <td class="example-clue">1&nbsp;1&nbsp;1</td>
+    <td class="example-fill"></td>
+    <td></td>
+    <td class="example-fill"></td>
+    <td></td>
+    <td class="example-fill"></td>
+</tr>
+
+<!-- ROW 3 -->
+<tr>
+    <td class="example-clue">5</td>
+    <td class="example-fill"></td>
+    <td class="example-fill"></td>
+    <td class="example-fill"></td>
+    <td class="example-fill"></td>
+    <td class="example-fill"></td>
+</tr>
+
+<!-- ROW 4 -->
+<tr>
+    <td class="example-clue">1&nbsp;1&nbsp;1</td>
+    <td class="example-fill"></td>
+    <td></td>
+    <td class="example-fill"></td>
+    <td></td>
+    <td class="example-fill"></td>
+</tr>
+
+<!-- ROW 5 -->
+<tr>
+    <td class="example-clue">3</td>
+    <td></td>
+    <td class="example-fill"></td>
+    <td class="example-fill"></td>
+    <td class="example-fill"></td>
+    <td></td>
+</tr>
+
+</table>
+
+</div>
