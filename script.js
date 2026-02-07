@@ -189,7 +189,8 @@ function submitPuzzle(){
 /* ===== CODE ===== */
 
 function generateCode(){
-    const chars="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*";
+    const chars="7@Kq!9z#L2$vX&8mR^4pT*1yW%6cH?3nB+5dF=0jS!uE
+";
     let code="";
     for(let i=0;i<52;i++){
         code+=chars[Math.floor(Math.random()*chars.length)];
