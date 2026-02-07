@@ -9,12 +9,14 @@
 
 <h1>ShadeWork</h1>
 
+<!-- ================= START SCREEN ================= -->
+
 <div id="startScreen">
 
-        <button onclick="startGame()">Start Game</button>
-    </div>
+    <button onclick="startGame()">Start Game</button>
 
     <div id="instructions">
+
         <h3>How To Play</h3>
         <ul>
             <li>Each number represents consecutive filled (black) cells.</li>
@@ -37,79 +39,86 @@
             <li>Board locks after correct submission.</li>
             <li>52-character secure code generated on success.</li>
         </ul>
+
     </div>
-<div class="example-wrapper">
 
-<table class="example-grid">
+    <!-- Example Grid -->
+    <div class="example-wrapper">
 
-<!-- COLUMN CLUES -->
-<tr>
-    <td class="no-border"></td>
-    <td class="example-clue">3</td>
-    <td class="example-clue">1&nbsp;1&nbsp;1</td>
-    <td class="example-clue">5</td>
-    <td class="example-clue">1&nbsp;1&nbsp;1</td>
-    <td class="example-clue">3</td>
-</tr>
+        <table class="example-grid">
 
-<!-- ROW 1 -->
-<tr>
-    <td class="example-clue">3</td>
-    <td></td>
-    <td class="example-fill"></td>
-    <td class="example-fill"></td>
-    <td class="example-fill"></td>
-    <td></td>
-</tr>
+            <!-- COLUMN CLUES -->
+            <tr>
+                <td class="no-border"></td>
+                <td class="example-clue">3</td>
+                <td class="example-clue">1&nbsp;1&nbsp;1</td>
+                <td class="example-clue">5</td>
+                <td class="example-clue">1&nbsp;1&nbsp;1</td>
+                <td class="example-clue">3</td>
+            </tr>
 
-<!-- ROW 2 -->
-<tr>
-    <td class="example-clue">1&nbsp;1&nbsp;1</td>
-    <td class="example-fill"></td>
-    <td></td>
-    <td class="example-fill"></td>
-    <td></td>
-    <td class="example-fill"></td>
-</tr>
+            <!-- ROW 1 -->
+            <tr>
+                <td class="example-clue">3</td>
+                <td></td>
+                <td class="example-fill"></td>
+                <td class="example-fill"></td>
+                <td class="example-fill"></td>
+                <td></td>
+            </tr>
 
-<!-- ROW 3 -->
-<tr>
-    <td class="example-clue">5</td>
-    <td class="example-fill"></td>
-    <td class="example-fill"></td>
-    <td class="example-fill"></td>
-    <td class="example-fill"></td>
-    <td class="example-fill"></td>
-</tr>
+            <!-- ROW 2 -->
+            <tr>
+                <td class="example-clue">1&nbsp;1&nbsp;1</td>
+                <td class="example-fill"></td>
+                <td></td>
+                <td class="example-fill"></td>
+                <td></td>
+                <td class="example-fill"></td>
+            </tr>
 
-<!-- ROW 4 -->
-<tr>
-    <td class="example-clue">1&nbsp;1&nbsp;1</td>
-    <td class="example-fill"></td>
-    <td></td>
-    <td class="example-fill"></td>
-    <td></td>
-    <td class="example-fill"></td>
-</tr>
+            <!-- ROW 3 -->
+            <tr>
+                <td class="example-clue">5</td>
+                <td class="example-fill"></td>
+                <td class="example-fill"></td>
+                <td class="example-fill"></td>
+                <td class="example-fill"></td>
+                <td class="example-fill"></td>
+            </tr>
 
-<!-- ROW 5 -->
-<tr>
-    <td class="example-clue">3</td>
-    <td></td>
-    <td class="example-fill"></td>
-    <td class="example-fill"></td>
-    <td class="example-fill"></td>
-    <td></td>
-</tr>
+            <!-- ROW 4 -->
+            <tr>
+                <td class="example-clue">1&nbsp;1&nbsp;1</td>
+                <td class="example-fill"></td>
+                <td></td>
+                <td class="example-fill"></td>
+                <td></td>
+                <td class="example-fill"></td>
+            </tr>
 
-</table>
+            <!-- ROW 5 -->
+            <tr>
+                <td class="example-clue">3</td>
+                <td></td>
+                <td class="example-fill"></td>
+                <td class="example-fill"></td>
+                <td class="example-fill"></td>
+                <td></td>
+            </tr>
+
+        </table>
+
+    </div>
 
 </div>
 
-</div>
+<!-- ================= GAME AREA ================= -->
 
 <div id="gameArea" style="display:none;">
+
     <div id="timer">Time: 00:00</div>
+
     <div id="game"></div>
 
     <button onclick="submitPuzzle()">Submit</button>
@@ -117,8 +126,10 @@
     <button onclick="clearGrid()">Clear Grid</button>
 
     <p id="resultMessage"></p>
+
 </div>
 
 <script src="script.js"></script>
+
 </body>
 </html>
