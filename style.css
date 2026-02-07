@@ -21,17 +21,6 @@ h1{
     text-align:left;
 }
 
-#nameSection{
-    text-align:center;
-    margin-bottom:25px;
-}
-
-#playerName{
-    padding:10px;
-    width:280px;
-    font-size:16px;
-}
-
 /* ================= TIMER ================= */
 
 #timer{
